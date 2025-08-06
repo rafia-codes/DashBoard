@@ -1,0 +1,18 @@
+# Root .gitignore
+node_modules/
+.env
+.DS_Store
+
+# Ignore build if created manually
+build/
+
+# Ignore logs
+*.log
+
+# Ignore Vercel/Netlify folders if generated locally
+.vercel/
+.netlify/
+
+# Ignore local IDE configs
+.vscode/
+.idea/
